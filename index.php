@@ -521,26 +521,45 @@
             </form>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div class="col-md-10 stripe  text-white ">
-              <!-- start contact us 2st column -->
-              <h4>Normal Delevery</h4>
-              <p>Aa Poetry Ni delevry thata 24h laagse
-                Jo 24h ma na thay to paisa refund
-              </p>
-              
-            </div>
-            <div class="col-md-10 mt-5 stripe  text-white  text-center">
-              <!-- start contact us 2st column -->
-              <h4>Exreme Delevery</h4>
-              <p>Aa Poetry Ni delevry thata 24h laagse
-                Jo 24h ma na thay to paisa refund
-              </p>
-              
-            </div>
-          </div>
-        </div>
+       <!-- strt cholec crd -->
+      <div class="price_container">
+
+      
+        <div class="plan">
+           <div class="inner">
+           <span class="pricing">
+             <span>
+              <i class="fa-solid fa-indian-rupee-sign"></i> 60 
+               </span>
+               </span>
+                 <p class="title">Extreme Delevery</p>
+                 <p class="info">This plan is for those who have a team already and running a large business.</p>
+                 <ul class="features">
+                  <li>
+                  <span class="icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                   <span><strong>20</strong> team members</span>
+                   </li> 
+                   <li>
+                     <span class="icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                         </span>
+                         <span>Plan <strong>team meetings</strong></span>
+                         </li>
+                         <li>
+                          <span class="icon">
+                          <i class="fa-solid fa-circle-check"></i>
+                          </span>
+                           <span>File sharing</span>
+                            </li>
+                             </ul>
+                             <div class="action">
+                              <a class="button" href="#">
+                                 Choose plan
+                                   </a>
+      </div>
+       <!-- end cholec crd -->
       </div>
     </div>
   </section>
