@@ -74,12 +74,16 @@ padding-left: 0;
     margin-right: 0;
     margin-bottom: 15px;
   }
+  .price_container .plan .features {
+    margin-left: -40px;
+  }
 }
 
 @media (max-width: 376px) {
   .slider_section .detail-box h1 {
     font-size: 3rem;
   }
+
 }
 
 @media (min-width: 1200px) {

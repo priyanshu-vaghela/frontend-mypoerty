@@ -83,3 +83,27 @@ $(".client_owl-carousel").owlCarousel({
     },
   },
 });
+
+const priceCheckBox = document.getElementById('priceCheckbox');
+const btn_price = document.getElementById('btn_price');
+const checkButton = document.getElementById('checkButton');
+
+checkButton.addEventListener('click', function() {
+  if (priceCheckBox.checked === false) {
+    priceCheckBox.checked = true;
+    alert("You chose Extreme Delivery Option");
+    updatePrice(); 
+  } else {
+    alert("Already Active Extreme Plan");
+  }
+});
+
+
+priceCheckBox.addEventListener('change', updatePrice);
+function updatePrice() {
+  if (priceCheckBox.checked) {
+    btn_price.innerHTML = "60 Rs";
+  } else {
+    btn_price.innerHTML = "40 Rs";
+  }
+}

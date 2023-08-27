@@ -25,10 +25,11 @@
     <?php include 'pages/navbar.html' ?>
     <!-- end header section -->
   </div>
-<!-- book section -->
-<section class="book_section layout_padding">
+
+  <!-- book section -->
+  <section class="book_section layout_padding">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container" id="personalized">
         <h2>
         Personalized Poetry
         </h2>
@@ -70,11 +71,11 @@
               </div>
               <div>
 
-                <input type="checkbox" name="" id="Extreme">
-                <label for="Extreme"> Extreme Delevery </label>
+                <input type="checkbox" name="" id="priceCheckbox">
+                <label for="priceCheckbox"> Extreme Delevery </label>
               </div>
               <div class="btn_box">
-                <button>
+                <button id="btn_price">
                   40 Rs
                 </button>
                 <i class="fa-solid fa-circle-info"></i>
@@ -106,6 +107,12 @@
                   <span class="icon">
                     <i class="fa-solid fa-circle-check"></i>
                   </span>
+                  <span>Get Delevery in<strong> Whatsapp</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
                   <span>Extra <strong>Custumization</strong></span>
                 </li>
                 <li>
@@ -122,7 +129,7 @@
                 </li>
               </ul>
               <div class="action">
-                <a class="button" href="#">
+                <a href="book.php#personalized" class="button" style="cursor: pointer;" id="checkButton">
                   Choose plan
                 </a>
               </div>
