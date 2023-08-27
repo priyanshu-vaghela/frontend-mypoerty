@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <!DOCTYPE html>
-  <html>
-  
-  <head>
-    <?php include 'pages/meta.html' ?>
-  
-    <title>Menu</title>
-  
-    <!-- bootstrap core css -->
-    <!--Start Links  -->
-    <?php include 'pages/links.html'; ?>
-    <!--End Links  -->
-  
-  </head>
-  
-  <body class="sub_page">
-  
-    <div class="hero_area">
-      <div class="bg-box">
-        <img src="source/hero-bg.jpg" alt="navabr">
-      </div>
-      <!-- header section strats -->
-      <?php include 'pages/navbar.html' ?>
-      <!-- end header section -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <?php include 'pages/meta.html' ?>
+
+  <title>Menu</title>
+
+  <!-- bootstrap core css -->
+  <!--Start Links  -->
+  <?php include 'pages/links.html'; ?>
+  <!--End Links  -->
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="source/hero-bg.jpg" alt="navabr">
     </div>
-  <!-- book section -->
-  <section class="book_section layout_padding">
+    <!-- header section strats -->
+    <?php include 'pages/navbar.html' ?>
+    <!-- end header section -->
+  </div>
+<!-- book section -->
+<section class="book_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Book A Table
+        Personalized Poetry
         </h2>
       </div>
       <div class="row">
@@ -38,7 +38,7 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
+                <input type="text" class="form-control" placeholder="Person Name" />
               </div>
               <div>
                 <input type="text" class="form-control" placeholder="Phone Number" />
@@ -49,52 +49,99 @@
               <div>
                 <select class="form-control nice-select wide">
                   <option value="" disabled selected>
-                    How many persons?
+                    Relation Status 
                   </option>
                   <option value="">
-                    2
+                    Love
                   </option>
                   <option value="">
-                    3
+                    Friend Male / Female
                   </option>
                   <option value="">
-                    4
+                  Normal Person
                   </option>
                   <option value="">
-                    5
+                    Father / Mother
                   </option>
                 </select>
               </div>
               <div>
                 <input type="date" class="form-control">
               </div>
+              <div>
+
+                <input type="checkbox" name="" id="Extreme">
+                <label for="Extreme"> Extreme Delevery </label>
+              </div>
               <div class="btn_box">
                 <button>
-                  Book Now
+                  40 Rs
                 </button>
+                <i class="fa-solid fa-circle-info"></i>
               </div>
             </form>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-           
+        <!-- strt cholec crd -->
+        <div class="price_container ">
+
+
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  <i class="fa-solid fa-indian-rupee-sign"></i> 60
+                </span>
+              </span>
+              <p class="title">Extreme Delevery</p>
+              <p class="info">Get your poetry delivered in record time with our Extreme Delivery service. Our team is dedicated to providing you with the best experience</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span><strong>Under 24h</strong> Delevery</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span>Extra <strong>Custumization</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span><strong>Photo + Music </strong> Delevery</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span>And Much <strong>More... </strong></span>
+                </li>
+              </ul>
+              <div class="action">
+                <a class="button" href="#">
+                  Choose plan
+                </a>
+              </div>
+              <!-- end cholec crd -->
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
   </section>
   <!-- end book section -->
 
 
 
-    <!-- footer section -->
-    <?php include 'pages/footer.html';?>
   <!-- footer section -->
-<!-- scripts start  -->
-<?php include 'pages/scripts.html';?>
-<!-- scripts end  -->
- 
+  <?php include 'pages/footer.html'; ?>
+  <!-- footer section -->
+
+  <!-- scripts start  -->
+  <?php include 'pages/scripts.html'; ?>
+  <!-- scripts end  -->
+
 </body>
 
 </html>

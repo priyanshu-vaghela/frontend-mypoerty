@@ -2,14 +2,14 @@
 <html>
 
 <head>
-<?php include 'pages/meta.html'?>
+  <?php include 'pages/meta.html' ?>
 
   <title>Mypoetry.in</title>
 
   <!-- bootstrap core css -->
- <!--Start Links  -->
- <?php include 'pages/links.html';?>
- <!--End Links  -->
+  <!--Start Links  -->
+  <?php include 'pages/links.html'; ?>
+  <!--End Links  -->
 
 </head>
 
@@ -21,26 +21,27 @@
       <img src="source/hero-bg.jpg" alt="">
     </div>
     <!-- header section strats -->
-    <?php include 'pages/navbar.html'?>
+    <?php include 'pages/navbar.html' ?>
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
+          <div class="container">
+            <h1 class="text-white">Today's Top <span style="color:#ffbe33">#3 Poetry</span> </h1>
+          </div>
           <div class="carousel-item active">
             <div class="container ">
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
-                    <h1>
-                      Fast Food Restaurant
-                    </h1>
-                    <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                    <p style="font-size:20px">
+                    <span style="color:#ffbe33"> "</span>All begin in delight and end in wisdom, as Frost taught us great poems should. <span style="color:#ffbe33"> "</span>
                     </p>
+                    <!-- <h1>Chahat K. Arya</h1> -->
                     <div class="btn-box">
                       <a href="" class="btn1">
-                        Order Now
+                      Explore
                       </a>
                     </div>
                   </div>
@@ -53,15 +54,13 @@
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
-                    <h1>
-                      Fast Food Restaurant
-                    </h1>
-                    <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                  <p style="font-size:20px">
+                    <span style="color:#ffbe33"> "</span>This blew my mind in high school, and I wasn’t the only one.<span style="color:#ffbe33"> "</span>
                     </p>
+                    <!-- <h1>Chahat K. Arya</h1> -->
                     <div class="btn-box">
                       <a href="" class="btn1">
-                        Order Now
+                        Explore
                       </a>
                     </div>
                   </div>
@@ -74,15 +73,13 @@
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
-                    <h1>
-                      Fast Food Restaurant
-                    </h1>
-                    <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                  <p style="font-size:20px">
+                    <span style="color:#ffbe33"> "</span>Because a rose is a rose is a rose is a rose. <span style="color:#ffbe33"> "</span>
                     </p>
+                    <!-- <h1>Chahat K. Arya</h1> -->
                     <div class="btn-box">
                       <a href="" class="btn1">
-                        Order Now
+                      Explore
                       </a>
                     </div>
                   </div>
@@ -113,18 +110,19 @@
           <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
-                <img src="source/o1.jpg" alt="">
+                <img src="source\offers\specialoffer.jpg" alt="">
               </div>
               <div class="detail-box">
                 <h5>
                   Extreme Packege
                 </h5>
                 <h6>
-                 <span>60<i class="fa-solid fa-indian-rupee-sign"></i></span> <del>150<i class="fa-solid fa-indian-rupee-sign"></i> </del>
+                  <span>60<i class="fa-solid fa-indian-rupee-sign"></i></span> <del>150<i
+                      class="fa-solid fa-indian-rupee-sign"></i> </del>
                 </h6>
                 <a href="">
-                View Details  
-                <i class="fa-solid fa-arrow-right"></i>
+                  View Details
+                  <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -132,18 +130,19 @@
           <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
-                <img src="source/o2.jpg" alt="">
+                <img src="source\offers\bestoffer.jpg" alt="">
               </div>
               <div class="detail-box">
                 <h5>
                   Normal Packege
                 </h5>
                 <h6>
-               <span>40<i class="fa-solid fa-indian-rupee-sign"></i></span>     <del>100<i class="fa-solid fa-indian-rupee-sign"></i> </del>
+                  <span>40<i class="fa-solid fa-indian-rupee-sign"></i></span> <del>100<i
+                      class="fa-solid fa-indian-rupee-sign"></i> </del>
                 </h6>
-                <a href="" >
-                 View Details
-                 <i class="fa-solid fa-arrow-right"></i>
+                <a href="">
+                  View Details
+                  <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -161,239 +160,249 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Our Menu
+          Poetry Category
         </h2>
       </div>
 
       <ul class="filters_menu">
         <li class="active" data-filter="*">All</li>
-        <li data-filter=".burger">Burger</li>
-        <li data-filter=".pizza">Pizza</li>
-        <li data-filter=".pasta">Pasta</li>
-        <li data-filter=".fries">Fries</li>
+        <li data-filter=".love">Love</li>
+        <li data-filter=".Friendship">Friendship</li>
+        <li data-filter=".perents">Perents</li>
+        <li data-filter=".sad">Sad</li>
+        <li data-filter=".marreige">Marreige</li>
       </ul>
 
       <div class="filters-content">
         <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4 all Friendship">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f1.png" alt="">
+                  <img src="source\menu\friendship.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pizza
+                    Friendship Day
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $20
                     </h6>
-                    <a href="" >
-                        <i class="fa-solid fa-cart-shopping " id="Capa_1"></i>
+                    <a href="">
+                      <i class="fa-solid fa-cart-shopping " id="Capa_1"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4 all love">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f2.png" alt="">
+                  <img src="source\menu\propose.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Burger
+                    Proposal For Cruse
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $15
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4 all love marreige">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f3.png" alt="">
+                  <img src="source\menu\marrige.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pizza
+                    For Marrige
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $17
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4 all perents">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f4.png" alt="">
+                  <img src="source\menu\Mothersday.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pasta
+                    Mother's Day
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $18
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all fries">
+          <div class="col-sm-6 col-lg-4 all perents">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f5.png" alt="">
+                  <img src="source\menu\fathersday.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    French Fries
+                    Father's Day
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $10
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4 all marreige">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f6.png" alt="">
+                  <img src="source\menu\babyshower.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pizza
+                    Baby Shower
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $15
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4 all sad">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f7.png" alt="">
+                  <img src="source\menu\apologyorsorry.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Tasty Burger
+                    Apology / Sorry
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $12
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4 all sad">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f8.png" alt="">
+                  <img src="source\menu\breakup.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Tasty Burger
+                    Break Up
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $14
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4 all">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f9.png" alt="">
+                  <img src="source\menu\deathanniversry.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pasta
+                    Death Anniversry
                   </h5>
                   <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque
                   </p>
                   <div class="options">
                     <h6>
                       $10
                     </h6>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                   </div>
                 </div>
@@ -414,50 +423,45 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section d-flex justify-content-center align-items-center">
     <div class="container  ">
+      <div class="admin_pro_card">
+        <div class="infos">
+          <div class="image">
+            <!-- <img src="source/admin.jpg" width="100px"  height="100px"alt=""> -->
+          </div>
+          <div class="info">
+            <div>
+              <p class="name">
+                Chahat K. Arya
+              </p>
+              <p class="function">
+                Poetry Writer
+              </p>
+            </div>
+            <div class="stats">
+              <p class="flex flex-col">
+                Articles
+                <span class="state-value">
+                  34
+                </span>
+              </p>
+              <p class="flex">
+                Followers
+                <span class="state-value">
+                  455
+                </span>
+              </p>
 
-      <div class="row">
-        <div class="col-md-6 ">
-          
-            <div class="card-deck mb-3 text-center">
-              <div class="card mb-4 box-shadow">
-                <div class="card-header">
-                  <h4 class="my-0 font-weight-normal">Normal </h4>
-                </div>
-                <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
-                    <li>Help center access</li>
-                  </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-                </div>
-              </div></div>
-
-           
             </div>
-        
-        <div class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Extreme</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-            </div>
+         
           </div>
         </div>
+        <button class="request" type="button">
+          Follow
+        </button>
       </div>
+    </div>
     </div>
   </section>
 
@@ -469,7 +473,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Right Now Make Your Persinalize Poetry
+        Personalized Poetry
         </h2>
       </div>
       <div class="row">
@@ -477,7 +481,7 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
+                <input type="text" class="form-control" placeholder="Person Name" />
               </div>
               <div>
                 <input type="text" class="form-control" placeholder="Phone Number" />
@@ -488,61 +492,86 @@
               <div>
                 <select class="form-control nice-select wide">
                   <option value="" disabled selected>
-                    How many persons?
+                    Relation Status 
                   </option>
                   <option value="">
-                    2
+                    Love
                   </option>
                   <option value="">
-                    3
+                    Friend Male / Female
                   </option>
                   <option value="">
-                    4
+                  Normal Person
                   </option>
                   <option value="">
-                    5
+                    Father / Mother
                   </option>
                 </select>
               </div>
               <div>
                 <input type="date" class="form-control">
               </div>
-<div>
+              <div>
 
-<input type="checkbox" name="" id="Extreme">
-  <label for="Extreme"> Extreme Delevery </label>
-</div>
+                <input type="checkbox" name="" id="Extreme">
+                <label for="Extreme"> Extreme Delevery </label>
+              </div>
               <div class="btn_box">
                 <button>
-                 40 Rs
+                  40 Rs
                 </button>
                 <i class="fa-solid fa-circle-info"></i>
               </div>
             </form>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div class="col-md-10 stripe  text-white ">
-              <!-- start contact us 2st column -->
-              <h4>Normal Delevery</h4>
-              <p>Aa Poetry Ni delevry thata 24h laagse
-                Jo 24h ma na thay to paisa refund
-              </p>
-              
-            </div>
-            <div class="col-md-10 mt-5 stripe  text-white  text-center">
-              <!-- start contact us 2st column -->
-              <h4>Exreme Delevery</h4>
-              <p>Aa Poetry Ni delevry thata 24h laagse
-                Jo 24h ma na thay to paisa refund
-              </p>
-              
+        <!-- strt cholec crd -->
+        <div class="price_container ">
+
+
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  <i class="fa-solid fa-indian-rupee-sign"></i> 60
+                </span>
+              </span>
+              <p class="title">Extreme Delevery</p>
+              <p class="info">Get your poetry delivered in record time with our Extreme Delivery service. Our team is dedicated to providing you with the best experience</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span><strong>Under 24h</strong> Delevery</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span>Extra <strong>Custumization</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span><strong>Photo + Music </strong> Delevery</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span>
+                  <span>And Much <strong>More... </strong></span>
+                </li>
+              </ul>
+              <div class="action">
+                <a class="button" href="#">
+                  Choose plan
+                </a>
+              </div>
+              <!-- end cholec crd -->
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   </section>
   <!-- end book section -->
 
@@ -561,7 +590,8 @@
             <div class="box">
               <div class="detail-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam
                 </p>
                 <h6>
                   Moana Michell
@@ -579,7 +609,8 @@
             <div class="box">
               <div class="detail-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam
                 </p>
                 <h6>
                   Mike Hamell
@@ -601,12 +632,12 @@
   <!-- end client section -->
 
   <!-- footer section -->
-<?php include 'pages/footer.html';?>
+  <?php include 'pages/footer.html'; ?>
   <!-- footer section -->
-<!-- scripts start  -->
-<?php include 'pages/scripts.html';?>
-<!-- scripts end  -->
- 
+  <!-- scripts start  -->
+  <?php include 'pages/scripts.html'; ?>
+  <!-- scripts end  -->
+
 </body>
 
 </html>

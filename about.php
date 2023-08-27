@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="source/about-img.png" alt="">
+            <img src="source/Favicon/android-chrome-192x192.png" alt="">
           </div>
         </div>
         <div class="col-md-6">

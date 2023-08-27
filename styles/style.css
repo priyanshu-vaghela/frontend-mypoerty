@@ -7,6 +7,79 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+.loader {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999999999999;
+} 
+.loader .pinwheel {
+  --uib-size: 45px;
+  --uib-speed: 0.8s;
+  --uib-color: #312f2b;
+  --uib-line-weight: 4px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--uib-size);
+  width: var(--uib-size);
+}
+
+.loader .pinwheel__line {
+  position: absolute;
+  top: calc(50% - var(--uib-line-weight) / 2);
+  left: 0;
+  height: var(--uib-line-weight);
+  width: 100%;
+  border-radius: calc(var(--uib-line-weight) / 2);
+  background-color: var(--uib-color);
+  animation: rotate81232 var(--uib-speed) ease-in-out infinite;
+}
+
+.loader .pinwheel__line:nth-child(2) {
+  animation-delay: calc(var(--uib-speed) * 0.075);
+  opacity: 0.8;
+}
+
+.loader .pinwheel__line:nth-child(3) {
+  animation-delay: calc(var(--uib-speed) * 0.15);
+  opacity: 0.6;
+}
+
+.loader .pinwheel__line:nth-child(4) {
+  animation-delay: calc(var(--uib-speed) * 0.225);
+  opacity: 0.4;
+}
+
+.loader .pinwheel__line:nth-child(5) {
+  animation-delay: calc(var(--uib-speed) * 0.3);
+  opacity: 0.2;
+}
+
+.loader .pinwheel__line:nth-child(6) {
+  animation-delay: calc(var(--uib-speed) * 0.375);
+  opacity: 0.1;
+}
+
+@keyframes rotate81232 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
 
 .layout_padding {
   padding: 90px 0;
@@ -665,6 +738,101 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #e69c00;
 }
+.about_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin_pro_card {
+  max-width: 400px;
+  border-radius: 1rem;
+  background-color: rgba(31, 41, 55, 1);
+  padding: 1rem;
+  margin:  0 auto;
+}
+
+.admin_pro_card .infos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+.admin_pro_card .image {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  /* Use this line to make the background image cover the entire element */
+  background-size: cover;
+  /* Use this line to center the background image */
+  background-position: center;
+  /* background-color: rgb(118, 36, 194); */
+  background-image: url('../source/admin.jpg');
+  /* background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240)); */
+}
+
+
+.admin_pro_card .info {
+  height: 7rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.admin_pro_card .name {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.admin_pro_card .function {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175, 1);
+}
+
+.admin_pro_card .stats {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.admin_pro_card .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.admin_pro_card .state-value {
+  font-weight: 700;
+  color: rgb(118, 36, 194);
+}
+
+.admin_pro_card .request {
+  margin-top: 1.5rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  transition: all .3s ease;
+}
+
+.admin_pro_card .request:hover {
+  background-color: rgb(118, 36, 194);
+  color: #fff;
+}
 
 .book_section {
   position: relative;
@@ -1008,4 +1176,132 @@ a:focus {
 .footer_section .footer-info p a {
   color: inherit;
 }
+
 /*# sourceMappingURL=style.css.map */
+
+/* start price card */
+
+.price_container{
+  margin: 0 auto;
+}
+.price_container .plan {
+  border-radius: 16px;
+  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  padding: 10px;
+  background-color: #fff;
+  color: #697e91;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.price_container .plan strong {
+  font-weight: 600;
+  color: #425275;
+}
+
+.price_container .plan .inner {
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  background-color: #ecf0ff;
+  border-radius: 12px;
+  position: relative;
+}
+
+.price_container .plan .pricing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #bed6fb;
+  border-radius: 99em 0 0 99em;
+  display: flex;
+  align-items: center;
+  padding: 0.625em 0.75em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #425475;
+}
+
+.price_container .plan .pricing small {
+  color: #707a91;
+  font-size: 0.75em;
+  margin-left: 0.25em;
+}
+
+.price_container .plan .title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #425675;
+}
+
+.price_container .plan .title + * {
+  margin-top: 0.75rem;
+}
+
+.price_container .plan .info + * {
+  margin-top: 1rem;
+}
+
+.price_container .plan .features {
+  display: flex;
+  flex-direction: column;
+}
+
+.price_container .plan .features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.price_container .plan .features li + * {
+  margin-top: 0.75rem;
+}
+
+.price_container .plan .features .icon {
+  background-color: #1FCAC5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px; /* Example width */
+  height: 15px; /* Example height */
+  border-radius: 50%;
+}
+
+.price_container .plan .features .icon i {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+}
+
+.price_container .plan .features + * {
+  margin-top: 1.25rem;
+}
+
+.price_container .plan .action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.price_container .plan .button {
+  background-color: #6558d3;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.625em 0.75em;
+  text-decoration: none;
+}
+
+.price_container .plan .button:hover,.price_container .plan .button:focus {
+  background-color: #4133B7;
+}
+
+/* end price card */
