@@ -254,11 +254,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f4.png" alt="">
+                  <img src="source\menu\Mothersday.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pasta
+                  Mother's Day
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -279,11 +279,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f5.png" alt="">
+                  <img src="source\menu\fathersday.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    French Fries
+                  Father's Day
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -304,11 +304,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f6.png" alt="">
+                  <img src="source\menu\babyshower.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pizza
+                  Baby Shower
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -329,11 +329,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f7.png" alt="">
+                  <img src="source\menu\apologyorsorry.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Tasty Burger
+                   Apology / Sorry
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -354,11 +354,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f8.png" alt="">
+                  <img src="source\menu\breakup.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Tasty Burger
+                   Break Up
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -379,11 +379,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f9.png" alt="">
+                  <img src="source\menu\deathanniversry.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pasta
+                   Death Anniversry
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
