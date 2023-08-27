@@ -1009,6 +1009,10 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* start price card */
+
+
 .price_container .plan {
   border-radius: 16px;
   box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
@@ -1128,3 +1132,5 @@ a:focus {
 .price_container .plan .button:hover,.price_container .plan .button:focus {
   background-color: #4133B7;
 }
+
+/* end price card */

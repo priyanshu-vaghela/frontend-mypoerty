@@ -113,7 +113,7 @@
           <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
-                <img src="source/o1.jpg" alt="">
+                <img src="source\offers\specialoffer.jpg" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -132,7 +132,7 @@
           <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
-                <img src="source/o2.jpg" alt="">
+                <img src="source\offers\bestoffer.jpg" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -179,11 +179,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f1.png" alt="">
+                  <img src="source\menu\friendship.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pizza
+                    Friendship Day
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -204,11 +204,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f2.png" alt="">
+                  <img src="source\menu\propose.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Burger
+                    Proposal For Cruse
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
@@ -229,11 +229,11 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="source/f3.png" alt="">
+                  <img src="source\menu\marrige.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Delicious Pizza
+                    For Marrige
                   </h5>
                   <p>
                     Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
