@@ -34,18 +34,28 @@
               <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
             </a>
             <form class="form-inline">
-              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+              <div class="btn my-2 my-sm-0 nav_search-btn ">
                 <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-              </button>
+                <i class="fa-solid fa-times" aria-hidden="true"></i>
+                <div class="search-dropdown">
+                  <input type="search" class="search-input" placeholder="Search...">
+                </div>
+              </div>
+              
+              
             </form>
             <a style="cursor: pointer; color: #fff;" class="order_online" onclick="login()" id="login" > 
               Login
             </a>
           </div>
         </div>
+     
       </nav>
+ 
     </div>
+  
   </header>
+ 
   <script>
     function login(){
     const login =  document.getElementById("login");
@@ -57,6 +67,28 @@
          login.innerText = "Login";
          alert("Logout Successfull");
      }
- }
- 
+ }document.addEventListener("DOMContentLoaded", function () {
+  const searchBtn = document.querySelector(".nav_search-btn");
+  const searchInput = document.querySelector(".search-input");
+  const searchIcon = searchBtn.querySelector(".fa-magnifying-glass");
+  const closeIcon = searchBtn.querySelector(".fa-times");
+
+  searchIcon.addEventListener("click", function () {
+    searchBtn.classList.add("show");
+    searchBtn.classList.add("active");
+    searchIcon.style.display = "none";
+    closeIcon.style.display = "inline-block";
+    searchInput.focus();
+  });
+
+  closeIcon.addEventListener("click", function () {
+    searchBtn.classList.remove("show");
+    searchBtn.classList.remove("active");
+    closeIcon.style.display = "none";
+    searchIcon.style.display = "inline-block";
+    searchInput.blur();
+  });
+});
+
+
   </script>
