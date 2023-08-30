@@ -41,7 +41,7 @@ This repository contains the frontend code for the MyProperty project.
 
 3. **Push Changes to the Remote Repository:**
 
-   - Push changes to the remote: `git push`
+   - Push changes to the remote: `git push origin main`
 
 ## Pulling Remote Changes
 

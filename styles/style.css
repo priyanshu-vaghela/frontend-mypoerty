@@ -861,7 +861,7 @@ a:focus {
   /* Use this line to center the background image */
   background-position: center;
   /* background-color: rgb(118, 36, 194); */
-  background-image: url('../source/admin.jpg');
+  background-image: url('../source/Images/admin.jpg');
   /* background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240)); */
 }
 

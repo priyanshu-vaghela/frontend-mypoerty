@@ -4,10 +4,13 @@
 <head>
   <?php include 'pages/meta.html' ?>
 
-  <title>Mypoetry.in</title>
+  <title>mypoetry.in</title>
 
   <!-- bootstrap core css -->
   <!--Start Links  -->
+  <link rel="preload" href="styles/bootstrap.css" as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" as="style">
+  
   <?php include 'pages/links.html'; ?>
   <!--End Links  -->
 
@@ -18,7 +21,7 @@
   <div class="hero_area">
     <div class="bg-box">
       <!-- <img src="https://img.freepik.com/free-photo/still-life-with-lamp-pen-lantern-book_188544-8807.jpg?w=826&t=st=1693028278~exp=1693028878~hmac=37f1004223a5f89aada25ddea74cd4c1344220ab1b2db0ba3a29e6348b79f4bd" alt=""> -->
-      <img src="source/hero-bg.jpg" alt="">
+      <img src="source/Images/hero-bg.jpg" loading="lazy" alt="home-page">
     </div>
     <!-- header section strats -->
     <?php include 'pages/navbar.html' ?>
@@ -157,7 +160,7 @@
   <!-- food section -->
 
   <section class="food_section layout_padding-bottom">
-    <div class="container">
+  <div class="container">
       <div class="heading_container heading_center">
         <h2>
           Poetry Category
@@ -607,7 +610,7 @@
                 </p>
               </div>
               <div class="img-box">
-                <img src="source/client1.jpg" alt="" class="box-img">
+                <img src="source/Images/client1.jpg" alt="" class="box-img">
               </div>
             </div>
           </div>
@@ -626,7 +629,7 @@
                 </p>
               </div>
               <div class="img-box">
-                <img src="source/client2.jpg" alt="" class="box-img">
+                <img src="source/Images/client2.jpg" alt="" class="box-img">
               </div>
             </div>
           </div>
@@ -647,3 +650,4 @@
 </body>
 
 </html>
+

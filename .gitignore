@@ -1,0 +1,30 @@
+# Ignore images
+source/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Ignore favicon
+source/Favicon/
+
+# Ignore menu data
+source/menu/
+
+# Ignore offer information
+source/offers/
+
+# Ignore any generated files
+/build/
+/dist/
+/out/
+/node_modules/
+
+# Ignore specific files
+filename.ext
+
+# Ignore temporary files
+*.tmp
+
+# Ignore log files
+*.log
